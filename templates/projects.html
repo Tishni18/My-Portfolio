@@ -1,0 +1,50 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content %}
+<!-- Projects Section-->
+            <section class="py-5">
+                <div class="container px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <!-- Project Card 1-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">My Book Shop</h2>
+                                            <p>It's An E-commerce Website built using Python and Django.It offers a user-friendly space where book lovers can explore, discover, and purchase a wide array of books. The platform focuses on creating an engaging experience by providing personalized recommendations, easy browsing, and a smooth purchasing process.It aims to Help all kinds of readers discover books they'll enjoy and make finding favorite books easier for everyone.</p>
+                                        </div>
+                                        <img class="img-fluid" src="{% static 'assets/book.png' %}" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 2-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Crime Reporting System </h2>
+                                            <p>The automatic crime reporting system has an incredible potential. It assists informers in reporting crimes anonymously or by sharing their details via mobile phones. This system also aids police in ensuring proper security measures while decreasing manual work in crime reporting</p>
+                                        </div>
+                                        <img class="img-fluid" src="{% static 'assets/crime.png' %}" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Call to action section-->
+            <section class="py-5 bg-gradient-primary-to-secondary text-white">
+                <div class="container px-5 my-5">
+                    <div class="text-center">
+                        <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
+                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="{% url 'contact'%}">Contact me</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+{% endblock %}

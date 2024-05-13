@@ -1,0 +1,151 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content %}
+            <!-- Page Content-->
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Profile</span></h1>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+                        <!-- Experience Section-->
+                        <section>
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h2 class="text-primary fw-bolder mb-0">Education</h2>
+                                <!-- Download resume button-->
+                                <!-- Note: Set the link href target to a PDF file within your project-->
+                                <a class="btn btn-primary px-4 py-3" target="_blank" href="{% static 'assets/resume.pdf'%}">
+                                    <div class="d-inline-block bi bi-download me-2"></div>
+                                    Download Resume
+                                </a>
+                            </div>
+                            <!-- Experience Card 1-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-primary fw-bolder mb-2">2021 - 2023</div>
+                                                <div class="small fw-bolder">M.Sc</div>
+                                                <div class="small text-muted">Computer Science </div>
+                                                <div class="small text-muted">Bharathidasan University</div>
+                                                <div class="small text-muted">CGPA - 8.46</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8"><div>Achieved a Master of Science in Computer Science from Bharathidasan University, showcasing a strong academic background. Specialized in cutting-edge concepts and technologies within the field. Graduated with distinction, exemplifying dedication and proficiency.</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Experience Card 2-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-primary fw-bolder mb-2">2018 - 2021</div>
+                                                <div class="small fw-bolder">BCA</div>
+                                                <div class="small text-muted">Computer Application</div>
+                                                <div class="small text-muted">Srimad Andavan College</div>
+                                                <div class="small text-muted">CGPA - 8.48</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8"><div>Completed a Bachelor's in Computer Applications (BCA) at Srimad Andavan Arts & Science College, gaining extensive knowledge in computer applications and related disciplines. The program equipped me with practical skills and a strong foundation for real-world applications in the field.</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Education Section-->
+                        <section>
+                            <h2 class="text-secondary fw-bolder mb-4">Certification</h2>
+                            <!-- Education Card 1-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-secondary fw-bolder mb-2"> Jul - sep 2023</div>
+                                                <div class="mb-2">
+                                                    <div class="small fw-bolder">Python Programming</div>
+                                                    <div class="small text-muted">@Systech</div>
+                                                </div>
+                                                <!-- <div class="fst-italic">
+                                                    <div class="small text-muted">Computer</div>
+                                                    <div class="small text-muted">CGPA - 8.46</div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8"><div>I've successfully completed Python programming at Systech, acquiring a solid foundation in the language. The course focused on essential concepts and practical applications, empowering me to develop efficient Python code.</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Education Card 2-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-secondary fw-bolder mb-2">Nov - Dec 2023</div>
+                                                <div class="mb-2">
+                                                    <div class="small fw-bolder">Django Framework</div>
+                                                    <div class="small text-muted">@Systech</div>
+                                                </div>
+                                                <!-- <div class="fst-italic">
+                                                    <div class="small text-muted">Computer Application</div>
+                                                    <div class="small text-muted">CGPA - 8.48</div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8"><div>Completed Django framework training at Systech, demonstrating proficiency in web application development. Skilled in building robust solutions and utilizing Django's features. Excited to apply knowledge to contribute effectively to web development projects.</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Divider-->
+                        <div class="pb-5"></div>
+                        <!-- Skills Section-->
+                        <section>
+                            <!-- Skillset Card-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <!-- Professional skills list-->
+                                    <div class="mb-5">
+                                        <div class="d-flex align-items-center mb-4">
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-tools"></i></div>
+                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Professional Skills</span></h3>
+                                        </div>
+                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Django Framework</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">MySQL</div></div>
+                                        </div>
+                                        <div class="row row-cols-1 row-cols-md-3">
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML5</div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">C,C++</div></div>
+                                        </div>
+                                    </div>
+                                    <!-- Languages list-->
+                                    <div class="mb-0">
+                                        <div class="d-flex align-items-center mb-4">
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-code-slash"></i></div>
+                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Soft Skills</span></h3>
+                                        </div>
+                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Problem-solving </div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Good communication</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Openness to change</div></div>
+                                        </div>
+                                        <div class="row row-cols-1 row-cols-md-3">
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Decision-making</div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Effective multitasking</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Prioritization</div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+{% endblock %}
